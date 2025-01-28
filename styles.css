@@ -139,3 +139,95 @@ i{
         transform: translate(var(--x), var(--y));
     }
 }
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 70%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #todo-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #todo-input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .todo-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .todo-item button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 35px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    #todo-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #todo-input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .todo-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    .todo-item button {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
